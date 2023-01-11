@@ -1,0 +1,204 @@
+.keret{
+    width: 80%;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #386d44;
+    /* background-color: #EBA63F; */
+    display: flex;  
+    flex-direction: column; 
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+
+.also{
+    background-color: #559965;
+    /* background-color: #438945; */
+    border-radius: 0 0 15px 15px;
+    height: 150px;
+}
+
+.felso{
+    background-color: #559965;
+    /* background-color: #3CBCC3; */
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    padding-top: 10px;
+}
+
+.kozepso{
+    display: flex;
+    flex-direction: column;
+    background-color: #559965;
+    /* background-color: #3CBCC3; */
+    min-height: 190px;
+
+}
+
+.mondat{
+    width: 75%;
+    margin-top: 30px;
+    background-color: #B2B2B2;
+    background-color: #F7F4E9; 
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.megoldas{
+    background-color: #B2B2B2;
+   /*  background-color: #EBA63F; */
+    width: 150px;
+    height: 30px;
+    border: solid 1px;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.helyesvalasz{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.szavak{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+
+.felso, .kozepso, .also{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+}
+
+
+.szavak1, .szavak2, .szavak3, .szavak4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 80px;
+    font-size: 40px;
+    background-color: #F7F4E9;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.gombok{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#indit, #ellenoriz {
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+#ujra {
+    background-color:  #f55858;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+#indit {
+    background-color: #FB8604;
+}
+
+
+#ellenoriz{
+    background-color: #073b19;
+    color: white;
+}
+
+#kep{
+    max-height: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+
+}
+
+.megold {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+.szöveg{
+    font-size: 26px;
+    text-align: center;
+    background-color: #fbff00;
+    border: 2px solid #342009;
+    height: 50px;
+    width: 100px;
+  }
+  
+  .szöveg p{
+    margin: 0;
+    text-align: center;
+    padding: 13px 0 0 0; 
+  }
+
+  .gyakorlo_feladat{
+    background-color: #D4E0F7;
+    float: left;
+    width: 60%;
+    height: 210px;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.dropzone{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+  }
+
+  .gyak{
+    border: 2px solid black;
+    margin: 0 5px 0 5px;
+    text-align: center;
+    font-size: 26px;
+    width: 150px;
+  }
